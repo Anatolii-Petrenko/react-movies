@@ -1,0 +1,18 @@
+.header {
+  position: relative;
+  background-color: #f2935cb5;
+  background-repeat: repeat;
+  width: 100vw;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerNavList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}

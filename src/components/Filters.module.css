@@ -1,0 +1,20 @@
+.filters {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.filters label {
+  display: flex;
+  gap: 6px;
+}
+
+@media screen and (max-width: 500px) {
+  .filters {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
